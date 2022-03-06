@@ -1,0 +1,519 @@
+
+/* ===== common css starts ===== */
+:root{
+    --primary: #071C1F;
+    --secondary: #E53E29;
+    --paragraph: #192D30;
+    --bg-color: #F2F6F7;
+    --icon: #8CB2B2;
+    --icon-bg: #FFF3F2;
+    --list: #373737;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style-type: none;
+}
+
+img{
+    vertical-align: middle;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+h1,h2,h3,h4,h5,h6,a{
+    font-family: 'Rajdhani', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* ===== common css ends ===== */
+
+
+/* ===== header part starts ===== */
+#banner{
+    background: url(../images/banner.jpg), no-repeat, center;
+    background-size: cover;
+    width: 100%;
+    background-color: var(--paragraph);
+    background-blend-mode: multiply;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 1fr 4fr 2fr;
+    column-gap: 3rem;
+    padding-top: 4rem;
+}
+
+.logo img{
+    /* width: 100%; */
+    padding-right: 3rem;
+    border-right: 0.1rem solid rgba(255, 255, 255, 0.685);
+}
+
+.get-support{
+    position: relative;
+}
+
+.at-icon{
+    color: var(--secondary);
+    font-size: 4rem;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+}
+
+.support-text{
+    position: absolute;
+    top: 0;
+    left: 5rem;
+    color: white;
+}
+
+.support-text h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.support-text h2{
+    font-size: 2rem;
+    font-weight: 700;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.support-text h2:hover{
+    color: var(--secondary);
+}
+
+.header-button{
+    text-align: right;
+    padding-top: 1rem;
+}
+
+.header-button a{
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 700;
+    background-color: var(--secondary);
+    padding: 2rem 3.5rem;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.header-button a:hover{
+    border: 0.2rem solid white;
+    background-color: var(--primary);
+}
+
+.banner-text{
+    color: white;
+    text-align: center;
+    padding-top: 25rem;
+    padding-bottom: 18rem;
+}
+
+.banner-text h1{
+    font-size: 5rem;
+    font-weight:700 ;
+    padding-bottom: 4rem;
+}
+
+.banner-paragraph{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 25rem;
+}
+
+.banner-paragraph p{
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.part1{
+    border-right: 0.1rem solid red;
+}
+
+.part2{
+    border-right: 0.1rem solid red;
+}
+
+.banner-button{
+    margin-top: 8rem;
+}
+
+.banner-button a{
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 700;
+    background-color: var(--secondary);
+    padding: 2rem 3.5rem;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.banner-button a:hover{
+    border: 0.2rem solid white;
+    background-color: var(--primary);
+}
+/* ===== header part ends ===== */
+
+
+/* ===== home part starts ===== */
+.common-heading{
+    padding-top: 12rem;
+    text-align: center;
+}
+
+.common-heading h2{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--secondary);
+    padding-bottom: 2.5rem;
+}
+
+.common-heading h1{
+    font-size: 6rem;
+    font-weight: 700;
+    color: var(--primary);
+    padding-bottom: 2rem;
+}
+
+.common-heading p{
+    font-size: 1.7rem;
+    font-family: 600;
+    color: var(--paragraph);
+    padding: 0 38rem;
+    padding-bottom: 2rem;
+}
+
+.common-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 7rem;
+    padding: 2rem 4rem;
+}
+
+.content-style{
+    box-shadow: 0rem 0.5rem 3rem rgba(172, 172, 172, 0.445);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.content-style:hover{
+    box-shadow: 0rem 2rem 3rem rgba(172, 172, 172, 0.801);
+    cursor: pointer;
+}
+
+.content-style img{
+    width: 100%;
+}
+
+.content-text{
+    padding: 2.5rem 0;
+    border-top: 0.1rem solid rgb(226, 226, 226);
+    position: relative;
+    width: 100%;
+}
+
+.content-text h2{
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin-left: 3rem;
+}
+
+.right-icon{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    font-size: 2.2rem;
+    color: var(--icon);
+    margin-right: 3rem;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.content-style:hover .right-icon{
+    color: var(--secondary);
+}
+/* ===== home part ends ===== */
+
+
+/* ===== shop part starts ===== */
+#shop{
+    background-color: var(--bg-color);
+    margin-top: 8rem;
+}
+
+.shop{
+    padding-top: 8rem;
+}
+/* ===== shop part ends ===== */
+
+
+/* ===== blog part starts ===== */
+#blog{
+    background-color: var(--bg-color);
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+
+}
+/* ===== blog part ends ===== */
+
+
+/* ===== other part starts ===== */
+#other{
+    margin-bottom: 7rem;
+}
+/* ===== other part ends ===== */
+
+
+/* ===== demo part starts ===== */
+#demo{
+    background-color: var(--primary);
+}
+
+.demo{
+    text-align: center;
+    padding: 8rem 0;
+}
+
+.demo h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+}
+/* ===== demo part ends ===== */
+
+
+/* ===== core part starts ===== */
+#core{
+    background-color: var(--bg-color);
+    padding-bottom: 4rem;
+}
+
+.core-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3rem;
+    padding: 4rem 3rem;
+}
+
+.core-box{
+    width: 100%;
+    text-align: center;
+    padding: 5rem 0;
+    background-color: white;
+    position: relative;
+}
+
+.icon-box{
+    position: absolute;
+    top: 0rem;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 7rem;
+    width: 7rem;
+    background-color: var(--icon-bg);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    margin-top: 4rem;
+}
+
+.core-icon{
+    font-size: 2.5rem;
+    color: var(--secondary);
+}
+
+.core-box h2{
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary);
+    padding-top: 8rem;
+}
+/* ===== core part ends ===== */
+
+
+/* ===== template part starts ===== */
+.template-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2rem 3rem;
+}
+
+.template-col a{
+    display: block;
+    color: var(--list);
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 2.2rem;
+}
+
+.temp-icon{
+    font-size: 1.3rem;
+    margin-right: 1rem;
+}
+/* ===== template part ends ===== */
+
+
+/* ===== footer part starts ===== */
+#footer{
+    background-color: var(--primary);
+    margin-top: 5rem;
+}
+
+.footer{
+    padding-top: 8rem;
+}
+
+.footer h2{
+    color: white;
+}
+
+.footer h1{
+    color: white;
+}
+
+.footer-button{
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.footer-button a{
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 700;
+    background-color: var(--secondary);
+    padding: 2rem 3.5rem;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.footer-button a:hover{
+    border: 0.2rem solid white;
+    background-color: var(--primary);
+}
+
+.copyright{
+    text-align: center;
+    padding-top: 7rem;
+    padding-bottom: 4rem;
+}
+
+.copyright p{
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+
+.copyright span{
+    color: var(--secondary);
+}
+/* ===== footer part ends ===== */
+
+
+/* ===== up arrow part starts ===== */
+.upper-arrow{
+    background-color: white;
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    z-index: 99;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0.1rem 0.1rem 1rem rgba(36, 36, 36, 0.363);
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.up-icon{
+    color: var(--primary);
+    font-size: 1.6rem;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.upper-arrow:hover{
+    background-color: var(--secondary);
+    cursor: pointer;
+}
+
+.upper-arrow:hover .up-icon{
+    color: white;
+}
+/* ===== up arrow part ends ===== */

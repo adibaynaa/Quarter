@@ -1,0 +1,626 @@
+
+
+/* =====320px-575px ===== */
+
+@media only screen and (min-width: 320px) and (max-width: 575px){
+
+    /* header part starts */
+    .header{
+        grid-template-columns: 1fr;
+        row-gap: 3rem;
+        text-align: center;
+    }
+
+    .logo img{
+        border: none;
+    }
+
+    .at-icon{
+        font-size: 0;
+    }
+
+    .support-text{
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+
+    .header-button{
+        text-align: center;
+        padding-top: 4rem;
+    }
+
+    .header-button a{
+        font-size: 1.4rem;
+        padding: 1rem 2rem;
+    }
+
+    .banner-text{
+        padding-top: 8rem;
+        padding-bottom: 5rem;
+    }
+
+    .banner-text h1{
+        font-size: 2.5rem;
+        padding-bottom: 3rem;
+    }
+
+    .banner-paragraph{
+        padding: 0 1rem;
+    }
+
+    .banner-paragraph p{
+        font-size: 1.3rem;
+        font-weight: 400;
+    }
+
+    .banner-button{
+        margin-top: 5rem;
+    }
+
+    .banner-button a{
+        font-size: 1.4rem;
+        padding: 1rem 2rem;
+    }
+    /* header part ends */
+
+    
+    /* home part starts */
+    .common-heading{
+        padding-top: 3rem;
+    }
+
+    .common-heading h2{
+        font-size: 1.4rem;
+        padding-bottom: 1rem;
+    }
+
+    .common-heading h1{
+        font-size: 2.7rem;
+        padding-bottom: 1rem;
+    }
+
+    .common-heading p{
+        font-size: 1.3rem;
+        padding: 0 2rem;
+        padding-bottom: 2rem;
+        text-align: justify;
+    }
+
+    .common-content{
+        grid-template-columns: 1fr;
+        gap: 5rem;
+        padding: 1.5rem 1rem;
+    }
+
+    .content-text h2{
+        font-size: 1.7rem;
+        margin-left: 1rem;
+    }
+
+    .right-icon{
+        font-size: 1.8rem;
+        margin-right: 1rem;
+    }
+    /* home part ends */
+
+
+    /* shop part starts */
+    #shop{
+        margin-top: 2rem;
+    }
+
+    .shop{
+        padding-top: 3rem;
+    }
+    /* shop part ends */
+
+
+    /* other part starts */
+    #other{
+        margin-bottom: 3rem;
+    }
+    /* other part ends */
+
+
+    /* demo part starts */
+    .demo{
+        padding: 5rem 0;
+    }
+
+    .demo h1{
+        font-size: 2.5rem;
+    }
+    /* demo part ends */
+
+
+    /* core part starts */
+    #core{
+        padding-bottom: 1.5rem;
+    }
+
+    .core-content{
+        grid-template-columns: 1fr;
+        padding: 2rem 1rem;
+    }
+
+    .core-box h2{
+        font-size: 1.8rem;
+    }
+    /* core part ends */
+
+
+    /* template part starts */
+    .template-content{
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+
+    .template-col a{
+        font-size: 1.3rem;
+        margin-top: 2rem;
+    }
+
+    .temp-icon{
+        font-size: 1.2rem;
+        margin-right: 1rem;
+    }
+    /* template part ends */
+
+
+    /* footer part starts */
+    #footer{
+        margin-top: 2rem;
+    }
+
+    .footer-button{
+        padding: 3rem;
+    }
+
+    .footer-button a{
+        font-size: 1.4rem;
+        padding: 1rem 2rem;
+    }
+
+    .copyright{
+        padding-top: 4rem;
+        padding-bottom: 2rem;
+    }
+
+    .copyright p{
+        font-size: 1.4rem;
+    }
+    /* footer part ends */
+}
+
+/* ============================================== */
+
+
+
+/* =====576px-767px ===== */
+
+@media only screen and (min-width: 576px) and (max-width: 767px){
+
+    /* header part starts */
+    .header{
+        grid-template-columns: 1fr;
+        row-gap: 4rem;
+        text-align: center;
+    }
+
+    .logo img{
+        padding-right: 1rem;
+        border: none;
+    }
+
+    .at-icon{
+        font-size: 0;
+    }
+
+    .support-text{
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+
+    .header-button{
+        text-align: center;
+        padding-top: 4rem;
+    }
+
+    .header-button a{
+        font-size: 1.4rem;
+        padding: 1rem 2rem;
+    }
+
+    .banner-text{
+        padding-top: 10rem;
+        padding-bottom: 6rem;
+    }
+
+    .banner-text h1{
+        font-size: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .banner-paragraph{
+        padding: 0 1rem;
+    }
+
+    .banner-paragraph p{
+        font-size: 1.4rem;
+    }
+
+    .banner-button{
+        margin-top: 6rem;
+    }
+
+    .banner-button a{
+        font-size: 1.4rem;
+        padding: 1rem 2rem;
+    }
+    /* header part ends */
+
+    
+    /* home part starts */
+    .common-heading{
+        padding-top: 4rem;
+    }
+
+    .common-heading h2{
+        font-size: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .common-heading h1{
+        font-size: 3rem;
+        padding-bottom: 1rem;
+    }
+
+    .common-heading p{
+        font-size: 1.4rem;
+        padding: 0 7rem;
+        padding-bottom: 2rem;
+    }
+
+    .common-content{
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+    }
+
+    .content-text h2{
+        font-size: 1.7rem;
+        margin-left: 1rem;
+    }
+
+    .right-icon{
+        font-size: 1.8rem;
+        margin-right: 1rem;
+    }
+    /* home part ends */
+
+
+    /* shop part starts */
+    #shop{
+        margin-top: 3rem;
+    }
+
+    .shop{
+        padding-top: 4rem;
+    }
+    /* shop part ends */
+
+
+    /* other part starts */
+    #other{
+        margin-bottom: 4rem;
+    }
+    /* other part ends */
+
+
+    /* demo part starts */
+    .demo{
+        padding: 6rem 0;
+    }
+
+    .demo h1{
+        font-size: 3.5rem;
+    }
+    /* demo part ends */
+
+
+    /* core part starts */
+    #core{
+        padding-bottom: 1.5rem;
+    }
+
+    .core-content{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .core-box h2{
+        font-size: 1.8rem;
+    }
+    /* core part ends */
+
+
+    /* template part starts */
+    .template-content{
+        grid-template-columns: 1fr;
+        padding: 1.5rem;
+    }
+
+    .template-col a{
+        font-size: 1.3rem;
+        margin-top: 2rem;
+    }
+
+    .temp-icon{
+        font-size: 1.2rem;
+        margin-right: 1rem;
+    }
+    /* template part ends */
+
+
+    /* footer part starts */
+    #footer{
+        margin-top: 2rem;
+    }
+
+    .footer-button{
+        padding: 3rem;
+    }
+
+    .footer-button a{
+        font-size: 1.4rem;
+        padding: 1rem 2rem;
+    }
+
+    .copyright{
+        padding-top: 5rem;
+        padding-bottom: 2rem;
+    }
+
+    .copyright p{
+        font-size: 1.5rem;
+    }
+    /* footer part ends */
+}
+
+/* ============================================== */
+
+
+
+/* =====768px-991px ===== */
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+    /* header part starts */
+    .header{
+        grid-template-columns: 1fr 4fr 3fr;
+        column-gap: 1rem;
+    }
+
+    .logo img{
+        padding-right: 1rem;
+    }
+
+    .at-icon{
+        font-size: 0;
+    }
+
+    .support-text{
+        left: 1.5rem;
+    }
+
+    .header-button a{
+        font-size: 1.5rem;
+        padding: 2rem 3rem;
+    }
+
+    .banner-text{
+        padding-top: 18rem;
+        padding-bottom: 10rem;
+    }
+
+    .banner-text h1{
+        font-size: 4rem;
+        padding-bottom: 3rem;
+    }
+
+    .banner-paragraph{
+        padding: 0 10rem;
+    }
+
+    .banner-paragraph p{
+        font-size: 1.5rem;
+    }
+    /* header part ends */
+
+    
+    /* home part starts */
+    .common-heading{
+        padding-top: 6rem;
+    }
+
+    .common-heading h2{
+        font-size: 1.6rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .common-heading h1{
+        font-size: 4rem;
+        padding-bottom: 1rem;
+    }
+
+    .common-heading p{
+        padding: 0 15rem;
+        padding-bottom: 2.5rem;
+        text-align: justify;
+    }
+
+    .common-content{
+        grid-template-columns: 1fr 1fr;
+        gap: 5rem;
+    }
+
+    .content-text h2{
+        font-size: 1.8rem;
+        margin-left: 2rem;
+    }
+
+    .right-icon{
+        font-size: 2rem;
+        margin-right: 2rem;
+    }
+    /* home part ends */
+
+
+    /* shop part starts */
+    #shop{
+        margin-top: 4rem;
+    }
+
+    .shop{
+        padding-top: 5rem;
+    }
+    /* shop part ends */
+
+
+    /* other part starts */
+    #other{
+        margin-bottom: 5rem;
+    }
+    /* other part ends */
+
+
+    /* demo part starts */
+    .demo{
+        padding: 6rem 0;
+    }
+
+    .demo h1{
+        font-size: 3.5rem;
+    }
+    /* demo part ends */
+
+
+    /* core part starts */
+    #core{
+        padding-bottom: 2rem;
+    }
+
+    .core-content{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .core-box h2{
+        font-size: 1.8rem;
+    }
+    /* core part ends */
+
+
+    /* template part starts */
+    .template-content{
+        padding: 2rem 0.5rem;
+    }
+
+    .template-col a{
+        font-size: 1.1rem;
+        margin-top: 2rem;
+    }
+
+    .temp-icon{
+        font-size: 1rem;
+        margin-right: 0.3rem;
+    }
+    /* template part ends */
+
+
+    /* footer part starts */
+    #footer{
+        margin-top: 2rem;
+    }
+
+    .footer-button{
+        padding: 3rem;
+    }
+
+    .footer-button a{
+        font-size: 1.5rem;
+        padding: 1.5rem 2.5rem;
+    }
+
+    .copyright{
+        padding-top: 5rem;
+        padding-bottom: 2rem;
+    }
+
+    .copyright p{
+        font-size: 1.5rem;
+    }
+    /* footer part ends */
+}
+
+/* ============================================== */
+
+
+
+/* =====992px-1199px ===== */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    
+    /* header part starts */
+    .banner-text{
+        padding-top: 18rem;
+        padding-bottom: 14rem;
+    }
+
+    .banner-paragraph{
+        padding: 0 20rem;
+    }
+    /* header part ends */
+
+    
+    /* home part starts */
+    .common-heading{
+        padding-top: 8rem;
+    }
+
+    .common-heading p{
+        padding: 0 25rem;
+        padding-bottom: 2.5rem;
+    }
+
+    .common-content{
+        gap: 5rem;
+    }
+    /* home part ends */
+
+
+    /* core part starts */
+    .core-box h2{
+        font-size: 1.8rem;
+    }
+    /* core part ends */
+
+
+    /* template part starts */
+    .template-col a{
+        font-size: 1.3rem;
+    }
+
+    .temp-icon{
+        font-size: 1.2rem;
+        margin-right: 0.8rem;
+    }
+    /* template part ends */
+}
+
+/* ============================================== */
